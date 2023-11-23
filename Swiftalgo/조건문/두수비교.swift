@@ -4,7 +4,6 @@
 //
 //  Created by 김민솔 on 2023/11/23.
 //
-
 import Foundation
 
 //split으로 값 쪼개기
@@ -18,11 +17,7 @@ let (a, b) = (arr[0], arr[1])
 if a < b {
     print("<")
 } else if a == b {
-    print("=")
+    print("==")
 } else if a > b {
     print(">")
 }
-
-
-
-
