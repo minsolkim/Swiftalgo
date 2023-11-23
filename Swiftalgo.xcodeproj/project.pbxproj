@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58505C922B08FD0C00F9FF5C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58505C912B08FD0C00F9FF5C /* main.swift */; };
+		58F43D042B0F6D3100CA1E0D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F43D032B0F6D3100CA1E0D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		58505C8E2B08FD0C00F9FF5C /* Swiftalgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swiftalgo; sourceTree = BUILT_PRODUCTS_DIR; };
-		58505C912B08FD0C00F9FF5C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		58F43D032B0F6D3100CA1E0D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,27 @@
 		58505C902B08FD0C00F9FF5C /* Swiftalgo */ = {
 			isa = PBXGroup;
 			children = (
-				58505C912B08FD0C00F9FF5C /* main.swift */,
+				58F43CFC2B0F6B9100CA1E0D /* 조건문 */,
+				58F43CFB2B0F6B0E00CA1E0D /* 반복문 */,
 			);
 			path = Swiftalgo;
+			sourceTree = "<group>";
+		};
+		58F43CFB2B0F6B0E00CA1E0D /* 반복문 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "반복문";
+			path = "반복문";
+			sourceTree = "<group>";
+		};
+		58F43CFC2B0F6B9100CA1E0D /* 조건문 */ = {
+			isa = PBXGroup;
+			children = (
+				58F43D032B0F6D3100CA1E0D /* main.swift */,
+			);
+			name = "조건문";
+			path = "조건문";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +112,7 @@
 				TargetAttributes = {
 					58505C8D2B08FD0C00F9FF5C = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -120,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58505C922B08FD0C00F9FF5C /* main.swift in Sources */,
+				58F43D042B0F6D3100CA1E0D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +262,10 @@
 		58505C962B08FD0C00F9FF5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -252,6 +273,7 @@
 		58505C972B08FD0C00F9FF5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
