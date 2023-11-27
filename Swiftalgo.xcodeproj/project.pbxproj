@@ -25,6 +25,8 @@
 		5828A26B2B136C43006BAA6E /* 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "합.swift"; sourceTree = "<group>"; };
 		5828A26E2B136DF8006BAA6E /* A+B-7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+B-7.swift"; sourceTree = "<group>"; };
 		5828A2702B137256006BAA6E /* A+B-8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+B-8.swift"; sourceTree = "<group>"; };
+		5828A2722B14C99D006BAA6E /* A+B-5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A+B-5.swift"; sourceTree = "<group>"; };
+		5828A2752B14CCA1006BAA6E /* 개수세기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "개수세기.swift"; sourceTree = "<group>"; };
 		58505C8E2B08FD0C00F9FF5C /* Swiftalgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swiftalgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F43D0F2B0F79CB00CA1E0D /* 두수비교.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두수비교.swift"; sourceTree = "<group>"; };
 		58F43D122B0F7C1700CA1E0D /* 시험성적.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "시험성적.swift"; sourceTree = "<group>"; };
@@ -43,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5828A2742B14CC90006BAA6E /* 1차원배열 */ = {
+			isa = PBXGroup;
+			children = (
+				5828A2752B14CCA1006BAA6E /* 개수세기.swift */,
+			);
+			name = "1차원배열";
+			path = "1차원배열";
+			sourceTree = "<group>";
+		};
 		58505C852B08FD0C00F9FF5C = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +73,7 @@
 		58505C902B08FD0C00F9FF5C /* Swiftalgo */ = {
 			isa = PBXGroup;
 			children = (
+				5828A2742B14CC90006BAA6E /* 1차원배열 */,
 				58F43CFC2B0F6B9100CA1E0D /* 조건문 */,
 				58F43CFB2B0F6B0E00CA1E0D /* 반복문 */,
 			);
@@ -76,6 +88,7 @@
 				5828A26B2B136C43006BAA6E /* 합.swift */,
 				5828A26E2B136DF8006BAA6E /* A+B-7.swift */,
 				5828A2702B137256006BAA6E /* A+B-8.swift */,
+				5828A2722B14C99D006BAA6E /* A+B-5.swift */,
 			);
 			name = "반복문";
 			path = "반복문";
